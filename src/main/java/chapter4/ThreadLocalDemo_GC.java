@@ -54,9 +54,9 @@ public class ThreadLocalDemo_GC {
             es.execute(new ParseDate(i));
         }
         cd.await();
+        Thread.sleep(3000);
         //append
-        es.shutdown();
-        Thread.sleep(1000);
+//        es.shutdown();
         System.gc();
         System.out.println("second GC complete");
     }

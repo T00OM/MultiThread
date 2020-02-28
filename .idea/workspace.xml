@@ -2,161 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c2bd83-1d73-4aaf-b3a9-39fb802c6897" name="Default Changelist" comment="0507-1853">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_1_jre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_1_jre.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_20.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_20.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiThread.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MultiThread.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter2/ArrayListMultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter2/ArrayListMultiThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter2/BadLockOnInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter2/BadLockOnInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter2/BadSuspend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter2/BadSuspend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter2/DaemonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter2/DaemonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter2/GoodSuspend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter2/GoodSuspend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter2/InterruptAndSleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter2/InterruptAndSleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter2/JoinMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter2/JoinMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter2/PriorityDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter2/PriorityDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter2/SimpleWN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter2/SimpleWN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter2/StopThreadUnsafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter2/StopThreadUnsafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter2/ThreadGroupName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter2/ThreadGroupName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/CountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/DaemonExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/DaemonExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/ExtThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/ExtThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/FairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/FairLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/IntLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/IntLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/JMHSample_01_HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/JMHSample_01_HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/LockSupportDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/LockSupportDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/LockSupportIntDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/LockSupportIntDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/RateLimiterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/RateLimiterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/ReadWriteLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/ReenterLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/ReenterLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/ReenterLockCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/ReenterLockCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/RejectThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/RejectThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/ScheduleExecutorServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/ScheduleExecutorServiceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/SemapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/SemapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/ThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/TimeLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/TimeLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/TraceThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/TraceThreadPoolExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/TryLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/TryLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter4/AtomicIntegerArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter4/AtomicIntegerArrayDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter4/AtomicIntegerFieldUpdaterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter4/AtomicIntegerFieldUpdaterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter4/AtomicStampedReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter4/AtomicStampedReferenceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter4/GenerateRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter4/GenerateRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter4/TestAtomicReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter4/TestAtomicReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter4/TestThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter4/TestThreadLocal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chapter4/ThreadLocalDemo_GC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter4/ThreadLocalDemo_GC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CompilerHints" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/CompilerHints" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/ArrayListMultiThread$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/ArrayListMultiThread$MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/ArrayListMultiThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/ArrayListMultiThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/BadLockOnInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/BadLockOnInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/BadSuspend$ChangeObjectThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/BadSuspend$ChangeObjectThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/BadSuspend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/BadSuspend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/DaemonDemo$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/DaemonDemo$MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/DaemonDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/DaemonDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/GoodSuspend$ChangeObjectThread$ReadObjectThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/GoodSuspend$ChangeObjectThread$ReadObjectThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/GoodSuspend$ChangeObjectThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/GoodSuspend$ChangeObjectThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/GoodSuspend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/GoodSuspend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/InterruptAndSleep$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/InterruptAndSleep$MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/InterruptAndSleep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/InterruptAndSleep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/JoinMain$AddThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/JoinMain$AddThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/JoinMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/JoinMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/PriorityDemo$HighPriority.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/PriorityDemo$HighPriority.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/PriorityDemo$LowPriority.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/PriorityDemo$LowPriority.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/PriorityDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/PriorityDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/SimpleWN$T1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/SimpleWN$T1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/SimpleWN$T2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/SimpleWN$T2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/SimpleWN.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/SimpleWN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/StopThreadUnsafe$ChangeObjectThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/StopThreadUnsafe$ChangeObjectThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/StopThreadUnsafe$ChangeObjectThreadV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/StopThreadUnsafe$ChangeObjectThreadV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/StopThreadUnsafe$ReadObjectThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/StopThreadUnsafe$ReadObjectThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/StopThreadUnsafe$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/StopThreadUnsafe$User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/StopThreadUnsafe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/StopThreadUnsafe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter2/ThreadGroupName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter2/ThreadGroupName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/CountDownLatchDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/CountDownLatchDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/CyclicBarrierDemo$BarrierRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/CyclicBarrierDemo$BarrierRun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/CyclicBarrierDemo$Soldier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/CyclicBarrierDemo$Soldier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/CyclicBarrierDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/CyclicBarrierDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/DaemonExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/DaemonExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/ExtThreadPool$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/ExtThreadPool$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/ExtThreadPool$MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/ExtThreadPool$MyTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/ExtThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/ExtThreadPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/FairLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/FairLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/IntLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/IntLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/JMHSample_01_HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/JMHSample_01_HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/LockSupportDemo$ChangeObjectThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/LockSupportDemo$ChangeObjectThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/LockSupportDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/LockSupportDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/LockSupportIntDemo$ChangeObjectThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/LockSupportIntDemo$ChangeObjectThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/LockSupportIntDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/LockSupportIntDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/RateLimiterDemo$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/RateLimiterDemo$Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/RateLimiterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/RateLimiterDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/ReadWriteLockDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/ReadWriteLockDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/ReadWriteLockDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/ReadWriteLockDemo$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/ReadWriteLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/ReadWriteLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/ReenterLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/ReenterLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/ReenterLockCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/ReenterLockCondition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/RejectThreadPoolDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/RejectThreadPoolDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/RejectThreadPoolDemo$MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/RejectThreadPoolDemo$MyTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/RejectThreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/RejectThreadPoolDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/ScheduleExecutorServiceDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/ScheduleExecutorServiceDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/ScheduleExecutorServiceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/ScheduleExecutorServiceDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/SemapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/SemapDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/ThreadPoolDemo$MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/ThreadPoolDemo$MyTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/ThreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/ThreadPoolDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/TimeLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/TimeLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/TraceThreadPoolExecutor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/TraceThreadPoolExecutor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/TraceThreadPoolExecutor$DivTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/TraceThreadPoolExecutor$DivTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/TraceThreadPoolExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/TraceThreadPoolExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/TryLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/TryLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/generated/JMHSample_01_HelloWorld_jmhType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/generated/JMHSample_01_HelloWorld_jmhType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/generated/JMHSample_01_HelloWorld_jmhType_B1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/generated/JMHSample_01_HelloWorld_jmhType_B1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/generated/JMHSample_01_HelloWorld_jmhType_B2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/generated/JMHSample_01_HelloWorld_jmhType_B2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/generated/JMHSample_01_HelloWorld_jmhType_B3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/generated/JMHSample_01_HelloWorld_jmhType_B3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter3/generated/JMHSample_01_HelloWorld_wellHelloThere_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter3/generated/JMHSample_01_HelloWorld_wellHelloThere_jmhTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/AtomicIntegerArrayDemo$AddThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/AtomicIntegerArrayDemo$AddThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/AtomicIntegerArrayDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/AtomicIntegerArrayDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/AtomicIntegerFieldUpdaterDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/AtomicIntegerFieldUpdaterDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/AtomicIntegerFieldUpdaterDemo$Candidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/AtomicIntegerFieldUpdaterDemo$Candidate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/AtomicIntegerFieldUpdaterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/AtomicIntegerFieldUpdaterDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/AtomicStampedReferenceDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/AtomicStampedReferenceDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/AtomicStampedReferenceDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/AtomicStampedReferenceDemo$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/AtomicStampedReferenceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/AtomicStampedReferenceDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/GenerateRandom$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/GenerateRandom$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/GenerateRandom$RndTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/GenerateRandom$RndTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/GenerateRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/GenerateRandom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/TestAtomicReference$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/TestAtomicReference$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/TestAtomicReference$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/TestAtomicReference$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/TestAtomicReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/TestAtomicReference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/TestThreadLocal$ParseDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/TestThreadLocal$ParseDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/TestThreadLocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/TestThreadLocal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$ParseDate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$ParseDate$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$ParseDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$ParseDate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/chapter3/generated/JMHSample_01_HelloWorld_jmhType.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/chapter3/generated/JMHSample_01_HelloWorld_jmhType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/chapter3/generated/JMHSample_01_HelloWorld_jmhType_B1.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/chapter3/generated/JMHSample_01_HelloWorld_jmhType_B1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/chapter3/generated/JMHSample_01_HelloWorld_jmhType_B2.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/chapter3/generated/JMHSample_01_HelloWorld_jmhType_B2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/chapter3/generated/JMHSample_01_HelloWorld_jmhType_B3.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/chapter3/generated/JMHSample_01_HelloWorld_jmhType_B3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/chapter3/generated/JMHSample_01_HelloWorld_wellHelloThere_jmhTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/chapter3/generated/JMHSample_01_HelloWorld_wellHelloThere_jmhTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,19 +17,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/ThreadLocalDemo_GC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -210,10 +48,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="960" />
-    <option name="height" value="1200" />
-  </component>
   <component name="ProjectId" id="1Y78Cem2qqxOzxrkqmsyZKRQUvE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -241,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JMHSample_01_HelloWorld">
+  <component name="RunManager" selected="Application.ThreadLocalDemo_GC">
     <configuration name="DaemonExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter3.DaemonExecutor" />
       <module name="MultiThread" />
@@ -294,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.ThreadPoolDemo" />
+    <configuration name="ThreadLocalDemo_GC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.ThreadLocalDemo_GC" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,13 +143,23 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalDemo_GC" />
         <item itemvalue="Application.JMHSample_01_HelloWorld" />
         <item itemvalue="Application.DaemonExecutor" />
         <item itemvalue="Application.ExtThreadPool" />
         <item itemvalue="Application.ScheduleExecutorServiceDemo" />
-        <item itemvalue="Application.ThreadPoolDemo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -390,39 +234,6 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="812000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1202" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497309" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -432,12 +243,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -474,19 +279,9 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/chapter3/CyclicBarrierDemo.java</url>
           <line>70</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/ThreadLocalDemo_GC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
