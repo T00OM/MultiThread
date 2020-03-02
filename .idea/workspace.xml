@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c2bd83-1d73-4aaf-b3a9-39fb802c6897" name="Default Changelist" comment="0507-1853">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter4/LockFreeVector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter4/ThreadLocalDemo_GC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter4/ThreadLocalDemo_GC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$ParseDate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$ParseDate$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,13 +73,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalDemo_GC">
-    <configuration name="DaemonExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.DaemonExecutor" />
+  <component name="RunManager" selected="Application.LockFreeVector">
+    <configuration name="AtomicIntegerFieldUpdaterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.AtomicIntegerFieldUpdaterDemo" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.ExtThreadPool" />
+    <configuration name="AtomicStampedReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.AtomicStampedReferenceDemo" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JMHSample_01_HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.JMHSample_01_HelloWorld" />
+    <configuration name="LockFreeVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.LockFreeVector" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScheduleExecutorServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.ScheduleExecutorServiceDemo" />
+    <configuration name="TestAtomicReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.TestAtomicReference" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LockFreeVector" />
+        <item itemvalue="Application.AtomicIntegerFieldUpdaterDemo" />
+        <item itemvalue="Application.AtomicStampedReferenceDemo" />
+        <item itemvalue="Application.TestAtomicReference" />
         <item itemvalue="Application.ThreadLocalDemo_GC" />
-        <item itemvalue="Application.JMHSample_01_HelloWorld" />
-        <item itemvalue="Application.DaemonExecutor" />
-        <item itemvalue="Application.ExtThreadPool" />
-        <item itemvalue="Application.ScheduleExecutorServiceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +186,9 @@
       <workItem from="1582586870362" duration="1202000" />
       <workItem from="1582703760705" duration="4834000" />
       <workItem from="1582788133287" duration="812000" />
+      <workItem from="1583042794373" duration="1866000" />
+      <workItem from="1583061117370" duration="8424000" />
+      <workItem from="1583114251587" duration="17534000" />
     </task>
     <task id="LOCAL-00001" summary="21:46">
       <created>1557150427845</created>
