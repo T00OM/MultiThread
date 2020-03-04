@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c2bd83-1d73-4aaf-b3a9-39fb802c6897" name="Default Changelist" comment="0507-1853">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/DisrupterProducerAndConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/FalseShare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/MyFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/ProducerAndConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/MyFutureTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/MyGuavaFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/Pipeline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiThread.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MultiThread.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$ParseDate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$ParseDate$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chapter5/MyFuture$Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter5/MyFuture$Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chapter5/MyFuture$FutureData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter5/MyFuture$FutureData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chapter5/MyFuture$RealData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter5/MyFuture$RealData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chapter5/MyFuture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter5/MyFuture.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,14 +28,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/main/java</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -79,20 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyFuture">
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter4.DeadLock" />
-      <module name="MultiThread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Pipeline">
     <configuration name="DisrupterProducerAndConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter5.DisrupterProducerAndConsumer" />
       <module name="MultiThread" />
@@ -132,8 +111,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerAndConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.ProducerAndConsumer" />
+    <configuration name="MyFutureTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter5.MyFutureTask" />
+      <module name="MultiThread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pipeline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter5.Pipeline" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pipeline" />
+        <item itemvalue="Application.MyFutureTask" />
         <item itemvalue="Application.MyFuture" />
         <item itemvalue="Application.FalseShare" />
         <item itemvalue="Application.DisrupterProducerAndConsumer" />
-        <item itemvalue="Application.ProducerAndConsumer" />
-        <item itemvalue="Application.DeadLock" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +189,8 @@
       <workItem from="1583114251587" duration="18476000" />
       <workItem from="1583147610029" duration="2917000" />
       <workItem from="1583218810734" duration="3692000" />
-      <workItem from="1583234041873" duration="5600000" />
+      <workItem from="1583234041873" duration="5877000" />
+      <workItem from="1583285426015" duration="4637000" />
     </task>
     <task id="LOCAL-00001" summary="21:46">
       <created>1557150427845</created>
