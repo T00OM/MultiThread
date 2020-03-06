@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c2bd83-1d73-4aaf-b3a9-39fb802c6897" name="Default Changelist" comment="0507-1853">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/OddEvenSwapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/AIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/AIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/Lambda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" afterDir="false" />
     </list>
@@ -11,6 +13,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -65,9 +81,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OddEvenSwapSort">
-    <configuration name="FalseShare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.FalseShare" />
+  <component name="RunManager" selected="Application.Lambda">
+    <configuration name="AIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter5.AIOClient" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.MyFuture" />
+    <configuration name="AIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter5.AIOServer" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
@@ -92,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFutureTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.MyFutureTask" />
+    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.Lambda" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter5.*" />
+          <option name="PATTERN" value="chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lambda" />
+        <item itemvalue="Application.AIOClient" />
+        <item itemvalue="Application.AIOServer" />
         <item itemvalue="Application.OddEvenSwapSort" />
         <item itemvalue="Application.Pipeline" />
-        <item itemvalue="Application.MyFutureTask" />
-        <item itemvalue="Application.MyFuture" />
-        <item itemvalue="Application.FalseShare" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +202,9 @@
       <workItem from="1583234041873" duration="5877000" />
       <workItem from="1583285426015" duration="5032000" />
       <workItem from="1583313417246" duration="2551000" />
-      <workItem from="1583372214431" duration="1466000" />
+      <workItem from="1583372214431" duration="2115000" />
+      <workItem from="1583460740785" duration="4096000" />
+      <workItem from="1583484415818" duration="1038000" />
     </task>
     <task id="LOCAL-00001" summary="21:46">
       <created>1557150427845</created>
