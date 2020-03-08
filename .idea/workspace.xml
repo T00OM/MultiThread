@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c2bd83-1d73-4aaf-b3a9-39fb802c6897" name="Default Changelist" comment="0507-1853">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/AIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/AIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/AskThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/CompletableFutureException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/CompletableFutureStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/FalseShare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/FasterAtomicClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/PrimeCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/StampedLockCPUDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chapter5/FalseShare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter5/FalseShare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chapter5/FalseShare$VolatileLong.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter5/FalseShare$VolatileLong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chapter5/FalseShare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter5/FalseShare.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,6 +76,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chapter6" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -81,35 +93,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lambda">
-    <configuration name="AIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.AIOClient" />
-      <module name="MultiThread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.AIOServer" />
-      <module name="MultiThread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.Lambda" />
+  <component name="RunManager" selected="Application.FalseShare">
+    <configuration name="CompletableFutureStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.CompletableFutureStream" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEvenSwapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.OddEvenSwapSort" />
+    <configuration name="FalseShare (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter5.FalseShare" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
@@ -134,12 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pipeline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.Pipeline" />
+    <configuration name="FalseShare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.FalseShare" />
       <module name="MultiThread" />
+      <option name="VM_PARAMETERS" value="-XX:-RestrictContended" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter5.*" />
+          <option name="PATTERN" value="chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,13 +134,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FasterAtomicClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.FasterAtomicClass" />
+      <module name="MultiThread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StampedLockCPUDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.StampedLockCPUDemo" />
+      <module name="MultiThread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CompletableFutureStream" />
+      <item itemvalue="Application.FalseShare" />
+      <item itemvalue="Application.FalseShare (1)" />
+      <item itemvalue="Application.FasterAtomicClass" />
+      <item itemvalue="Application.StampedLockCPUDemo" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lambda" />
-        <item itemvalue="Application.AIOClient" />
-        <item itemvalue="Application.AIOServer" />
-        <item itemvalue="Application.OddEvenSwapSort" />
-        <item itemvalue="Application.Pipeline" />
+        <item itemvalue="Application.FalseShare" />
+        <item itemvalue="Application.FalseShare (1)" />
+        <item itemvalue="Application.FasterAtomicClass" />
+        <item itemvalue="Application.StampedLockCPUDemo" />
+        <item itemvalue="Application.CompletableFutureStream" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +225,8 @@
       <workItem from="1583372214431" duration="2115000" />
       <workItem from="1583460740785" duration="4096000" />
       <workItem from="1583484415818" duration="1038000" />
+      <workItem from="1583634278362" duration="4434000" />
+      <workItem from="1583655184073" duration="7393000" />
     </task>
     <task id="LOCAL-00001" summary="21:46">
       <created>1557150427845</created>

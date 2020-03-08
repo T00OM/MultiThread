@@ -23,7 +23,7 @@ public class FalseShare implements Runnable {
         }
     }
 
-    public static class VolatileLong {
+    public final static class VolatileLong {
         public volatile long value;
         // 在JDK 1.8中，自动优化不使用的字段，添加PADDING失败，时间没有差距
 //        private long l1, l2, l3, l4, l5, l6, l7;
