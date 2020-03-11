@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c2bd83-1d73-4aaf-b3a9-39fb802c6897" name="Default Changelist" comment="0507-1853">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/AskThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/CompletableFutureException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/CompletableFutureStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/FalseShare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/FasterAtomicClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/PrimeCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/StampedLockCPUDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_10_2_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/MyLongAccumulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter7/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter7/MyWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/sampleHello.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter5/FalseShare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter5/FalseShare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter5/FalseShare$VolatileLong.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter5/FalseShare$VolatileLong.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter5/FalseShare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter5/FalseShare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiThread.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MultiThread.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$ParseDate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$ParseDate$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +71,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557922381759" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
@@ -93,13 +93,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FalseShare">
-    <configuration name="CompletableFutureStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.CompletableFutureStream" />
+  <component name="RunManager" selected="Application.DeadMain">
+    <configuration name="DeadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.DeadMain" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter6.*" />
+          <option name="PATTERN" value="chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FasterAtomicClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.FasterAtomicClass" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.Main" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter6.*" />
+          <option name="PATTERN" value="chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StampedLockCPUDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.StampedLockCPUDemo" />
+    <configuration name="MyLongAccumulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.MyLongAccumulator" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
@@ -161,19 +161,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CompletableFutureStream" />
       <item itemvalue="Application.FalseShare" />
       <item itemvalue="Application.FalseShare (1)" />
-      <item itemvalue="Application.FasterAtomicClass" />
-      <item itemvalue="Application.StampedLockCPUDemo" />
+      <item itemvalue="Application.MyLongAccumulator" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.DeadMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadMain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MyLongAccumulator" />
         <item itemvalue="Application.FalseShare" />
         <item itemvalue="Application.FalseShare (1)" />
-        <item itemvalue="Application.FasterAtomicClass" />
-        <item itemvalue="Application.StampedLockCPUDemo" />
-        <item itemvalue="Application.CompletableFutureStream" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +226,8 @@
       <workItem from="1583460740785" duration="4096000" />
       <workItem from="1583484415818" duration="1038000" />
       <workItem from="1583634278362" duration="4434000" />
-      <workItem from="1583655184073" duration="7393000" />
+      <workItem from="1583655184073" duration="7763000" />
+      <workItem from="1583803846045" duration="7229000" />
     </task>
     <task id="LOCAL-00001" summary="21:46">
       <created>1557150427845</created>
