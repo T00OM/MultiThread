@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c2bd83-1d73-4aaf-b3a9-39fb802c6897" name="Default Changelist" comment="0507-1853">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_10_2_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/MyLongAccumulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter7/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter7/MyWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/sampleHello.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter7/Supervisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter8/UnsafeArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiThread.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MultiThread.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$ParseDate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter4/ThreadLocalDemo_GC$ParseDate$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/实战Java高并发程序设计（第2版） - 副本1.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +66,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="debugger.dataViews" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -93,40 +85,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeadMain">
+  <component name="RunManager" selected="Application.UnsafeArrayList">
     <configuration name="DeadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter7.DeadMain" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FalseShare (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.FalseShare" />
-      <module name="MultiThread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FalseShare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.FalseShare" />
-      <module name="MultiThread" />
-      <option name="VM_PARAMETERS" value="-XX:-RestrictContended" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,20 +125,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SupervisorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.SupervisorMain" />
+      <module name="MultiThread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnsafeArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter8.UnsafeArrayList" />
+      <module name="MultiThread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.FalseShare" />
-      <item itemvalue="Application.FalseShare (1)" />
       <item itemvalue="Application.MyLongAccumulator" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.DeadMain" />
+      <item itemvalue="Application.SupervisorMain" />
+      <item itemvalue="Application.UnsafeArrayList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UnsafeArrayList" />
+        <item itemvalue="Application.SupervisorMain" />
         <item itemvalue="Application.DeadMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MyLongAccumulator" />
-        <item itemvalue="Application.FalseShare" />
-        <item itemvalue="Application.FalseShare (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +219,8 @@
       <workItem from="1583634278362" duration="4434000" />
       <workItem from="1583655184073" duration="7763000" />
       <workItem from="1583803846045" duration="7229000" />
+      <workItem from="1583887479351" duration="777000" />
+      <workItem from="1584003014941" duration="6518000" />
     </task>
     <task id="LOCAL-00001" summary="21:46">
       <created>1557150427845</created>
@@ -320,6 +313,17 @@
           <url>file://$PROJECT_DIR$/src/main/java/chapter3/CyclicBarrierDemo.java</url>
           <line>70</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="size==9" language="JAVA" />
+          <url>jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java</url>
+          <line>457</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/chapter8/UnsafeArrayList.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
